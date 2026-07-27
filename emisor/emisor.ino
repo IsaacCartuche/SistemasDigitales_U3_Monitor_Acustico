@@ -4,7 +4,7 @@
 #include <ArduinoJson.h>
 
 // MAC Address del Gateway (Reemplázala con la tuya)
-uint8_t broadcastAddress[] = {0x08, 0xD1, 0xF9, 0x34, 0x34, 0xCC};
+uint8_t broadcastAddress[] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
 
 // ¡CAMBIAR ESTO PARA CADA NODO FÍSICO! ("zona1" o "zona2")
 String ID_NODO = "zona2"; 
