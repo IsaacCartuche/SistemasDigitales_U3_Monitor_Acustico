@@ -3,9 +3,9 @@
 #include <PubSubClient.h>
 
 // ================= Configuración de Red =================
-const char* ssid = "Velocity_Johanna_Delgado";
-const char* password = "1104088826";
-const char* mqtt_server = "192.168.101.10"; // IP de tu PC
+const char* ssid = "Nombre_Red";
+const char* password = "Contrania_Red";
+const char* mqtt_server = "Dirección ip de ordenador local"; // IP de tu PC
 const int mqtt_port = 1883;
 
 WiFiClient espClient;
